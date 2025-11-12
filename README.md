@@ -55,11 +55,13 @@ Open the solution file in Visual Studio and build the project in **Release** mod
 
 3. **Configuration (Critical):**
 
-* In DeciTap+, ensure the correct reader is selected.
+* In DeciTap+, ensure the correct reader is selected. If the reader is connected AFTER starting DeciTap+ you may need to restart the application.
 
-* Set **Format** to `Decimal` and **Character Length** to `10`.
+* Set **Format** eg `Decimal` and **Character Length** to `10`.
 
 * Check the **Keyboard Wedge** box and, optionally, **Enter After Output**.
+
+* Note: You can test the desired outputs by unchecking the **Keyboard Wedge** function and testing various formats, once satisfied, check the **Keyboard Wedge** to allow DeciTap+ to output the Card Number to the currently active window.
 
 ## 🚀 Usage
 
