@@ -43,7 +43,7 @@ To run and utilize DeciTap+, you will need:
 
 * **NFC Reader:** A compatible NFC/Mifare card reader (e.g., ACS ACR1252IMP) connected via USB.
 
-* **C# WinForms Application:** The main scrub management application built in C# that is ready to accept the CardNumber input via simulated keyboard presses.
+* **C# WinForms Application/Excel/Word:** The main scrub management application built in C# that is ready to accept the CardNumber input via simulated keyboard presses. You can also compile lists of users in word/excel etc
 
 
 ## 📋 Installation and Setup
