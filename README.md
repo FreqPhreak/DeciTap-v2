@@ -1,13 +1,13 @@
 # DeciTap+: NFC/Card UID Reader Utility
 
-DeciTap+ is a specialized, lightweight utility designed to bridge the NFC card reader hardware with the main C# WinForms application. Its primary function is to read the unique decimal UID (CardNumber) from an authorized user's ID card and output it directly to a focused application via **Keyboard Wedge (simulated typing)**. It provides real-time, highly configurable output necessary for instant user authentication.
+DeciTap+ is a specialized, lightweight utility designed to bridge NFC card reader hardware with the main applications. Its primary function is to read the unique decimal UID (CardNumber) from an authorized user's ID card and output it directly to a focused application via **Keyboard Wedge (simulated typing)**. It provides real-time, highly configurable output necessary for instant user/card number authentication.
 
 <img width="472" height="285" alt="Screenshot 2025-03-10 141635" src="https://github.com/user-attachments/assets/86632662-8cd1-409d-afa5-00f09971d94f" />
 
 
 ## 🚀 Key Features
 
-* **Always On Top Window:** **The application window remains above all other desktop windows (unless minimized)**, ensuring that the simulated keyboard input (CardNumber) is never inadvertently sent to the wrong program, providing reliability during the authentication setup.
+* **Always On Top Window:** **The application window remains above all other desktop windows (unless minimized)**, ensuring that the simulated keyboard input (CardNumber) is incorrect, providing reliability during the authentication setup.
 
 * **NFC Reader Management:** Allows selection from multiple connected NFC/Mifare readers via a dropdown menu (e.g., "ACS ACR1252IMP 1S CL Reader PICC 0").
 
@@ -22,6 +22,8 @@ DeciTap+ is a specialized, lightweight utility designed to bridge the NFC card r
 * **Output Control:** Includes an option to append an **Enter After Output**, streamlining the authentication workflow by automatically submitting the typed CardNumber.
 
 * **Reader Diagnostics:** Provides a **Refresh** button to re-scan for available NFC readers and a red status bar for real-time feedback (e.g., "Card removed. Place card on the reader to scan.").
+
+* **Strip Leading Characters** Provides the ability to strip common leading characters 
 
 ## ⚙️ How It Works
 
