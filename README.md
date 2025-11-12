@@ -64,14 +64,4 @@ Open the solution file in Visual Studio and build the project in **Release** mod
 
 * Note: You can test the desired outputs by unchecking the **Keyboard Wedge** function and testing various formats, once satisfied, check the **Keyboard Wedge** to allow DeciTap+ to output the Card Number to the currently active window.
 
-## 🚀 Usage
 
-1. **Run the DeciTap.exe executable.** Due to its "Always On Top" feature, you can either leave it visible for monitoring or minimize it for a cleaner desktop view, ensuring it remains active in the background.
-
-2. In the main C# WinForms application, ensure the authentication input field (e.g., a Card Number textbox) is focused.
-
-3. **Authentication:** When a user taps their ID card on the NFC reader, DeciTap+ instantly inputs the `CardNumber` into the focused textbox.
-
-4. The WinForms application immediately receives the `CardNumber` and executes a SQL `SELECT` query against the `Users` table: `SELECT * FROM Users WHERE CardNumber = '[Input_CardNumber]'` to authenticate the user and start the transaction.
-
-## 🔗 Connection to Scrub Management System (Not Yet Implemented)
