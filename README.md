@@ -74,6 +74,4 @@ Open the solution file in Visual Studio and build the project in **Release** mod
 
 4. The WinForms application immediately receives the `CardNumber` and executes a SQL `SELECT` query against the `Users` table: `SELECT * FROM Users WHERE CardNumber = '[Input_CardNumber]'` to authenticate the user and start the transaction.
 
-## 🔗 Connection to Scrub Management System
-
-DeciTap+ simplifies the user authentication flow by handling the physical card reading and formatting the output correctly. It ensures the integrity of the process by providing the unique identifier required by the WinForms application to look up a user's details, check their `CreditBalance`, and record a new transaction in the `Transactions` table.
+## 🔗 Connection to Scrub Management System (Not Yet Implemented)
