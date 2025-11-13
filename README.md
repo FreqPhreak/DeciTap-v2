@@ -1,6 +1,6 @@
 # DeciTap+: NFC/Card UID Reader Utility
 
-DeciTap+ is a specialized, lightweight utility designed to bridge NFC card reader hardware with the main linen applications and more. Its primary function is to read the unique UID from a user's ID card and output it directly to a focused application via **Keyboard Wedge (simulated typing)**. It provides real-time, highly configurable output necessary for instant user/card number authentication.
+DeciTap+ is a specialized, lightweight utility designed to bridge NFC card reader hardware with the main linen applications and more. Its primary function is to read the unique UID from a user's ID card and output it directly to a focused application via **Keyboard Wedge (simulated typing)** Mimicking a keyboard if a successful scan is performed. It provides real-time, highly configurable output necessary for instant user/card number enrollment, authentication and administration.
 
 <img width="472" height="285" alt="Screenshot 2025-03-10 141635" src="https://github.com/user-attachments/assets/3131231a-f7c2-466e-8887-76351f1f66b1" />
 
@@ -42,7 +42,7 @@ To run and utilize DeciTap+, you will need:
 
 * **Operating System:** Windows (compatible with .NET Framework).
 
-* **NFC Reader:** A compatible NFC/Mifare card reader (e.g., ACS ACR1252IMP) connected via USB.
+* **NFC Reader:** A compatible NFC/Mifare card reader (e.g., ACS ACR1252) connected via USB.
 
 * **C# WinForms Application/Excel/Word:** The main scrub management application built in C# that is ready to accept the CardNumber input via simulated keyboard presses. You can also compile lists of users in word/excel etc
 
@@ -61,6 +61,10 @@ Open the solution file in Visual Studio and build the project in **Release** mod
 * Set **Format** eg `Decimal` and **Character Length** to `10`.
 
 * Check the **Keyboard Wedge** box and, optionally, **Enter After Output**.
+
+* Scan user's card on USB device eg: ACR1252 
+
+* Sucessful scan outputs UID/Converted UID to the output box and currently selected window and hits "enter" (if both functions enabled)
 
 * Note: You can test the desired outputs by unchecking the **Keyboard Wedge** function and testing various formats, once satisfied, check the **Keyboard Wedge** to allow DeciTap+ to output the Card Number to the currently active window.
 
