@@ -1,6 +1,6 @@
 /*
  *  Decitap+ - [RFID/NFC UID Scanner/Convertor, e.g. RFID Inventory Tracker]
- *  Copyright (C) 2025  [Your Full Name]
+ *  Copyright (C) 2025
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
