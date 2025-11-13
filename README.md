@@ -1,6 +1,6 @@
 # DeciTap+: NFC/Card UID Reader Utility
 
-DeciTap+ is a specialized, lightweight utility designed to bridge NFC card reader hardware with the main applications. Its primary function is to read the unique decimal UID (CardNumber) from an authorized user's ID card and output it directly to a focused application via **Keyboard Wedge (simulated typing)**. It provides real-time, highly configurable output necessary for instant user/card number authentication.
+DeciTap+ is a specialized, lightweight utility designed to bridge NFC card reader hardware with the main linen applications and more. Its primary function is to read the unique UID from a user's ID card and output it directly to a focused application via **Keyboard Wedge (simulated typing)**. It provides real-time, highly configurable output necessary for instant user/card number authentication.
 
 <img width="472" height="285" alt="Screenshot 2025-03-10 141635" src="https://github.com/user-attachments/assets/3131231a-f7c2-466e-8887-76351f1f66b1" />
 
